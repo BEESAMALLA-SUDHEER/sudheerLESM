@@ -78,7 +78,7 @@ public class BusinessCalculation {
 		
 		
 		
-	    Optional<Salary> tr = sr.findById(employeeId);
+	    Optional<Salary> tr = sr.findBymasterEmployeeDetails_Id(employeeId);
 
 		Salary salary = null;
 
@@ -113,7 +113,7 @@ public class BusinessCalculation {
 	
 
 
-		Optional<InternalExpenses> inten = internalExpenseRepo.findById(employeeId);
+		Optional<InternalExpenses> inten = internalExpenseRepo.findBymasterEmployeeDetails_Id(employeeId);
 
 		InternalExpenses expenses = null;
 
