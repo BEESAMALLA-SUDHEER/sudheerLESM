@@ -1099,3 +1099,4 @@ Identify and stop the process that's listening on port 2022 or configure this ap
 2022-07-20 11:45:32.019  INFO 24188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
 2022-07-20 11:45:32.040  INFO 24188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 2022-07-20 11:45:32.079  INFO 24188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-20 11:45:32.359  INFO 24188 --- [restartedMain] ls.lesm.LesmStatusMonitorApplication     : Started LesmStatusMonitorApplication in 6.874 seconds (JVM running for 7.317)
